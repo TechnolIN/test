@@ -42,7 +42,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
   pointer-events: none;
 }
 
-.styled-input.wide { 
+.styled-input.wide {
   width: 650px;
   max-width: 100%;
 }
@@ -111,7 +111,7 @@ textarea {
 input[type=checkbox] + label {
 color: #ccc;
 font-style: italic;
-} 
+}
 
 input[type=checkbox]:checked + label {
 color: #f00;
@@ -648,7 +648,7 @@ p {
 /*========= meet-our-people css =================*/
 
 .our-team-main {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   padding-top: 30px;
 }
 
