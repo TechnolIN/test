@@ -1,3 +1,32 @@
+#clientCarousel .carousel-inner {
+  height : 38rem;
+}
+
+
+#clientCarousel .carousel-inner img{
+    height : 32rem !important;
+}
+
+#clientCarousel .slider-item-div {
+  display: flex;
+  justify-content: center;
+}
+
+
+#clientCarousel .carousel-caption {
+  position: static !important;
+  bottom:0rem !important;
+  margin-top: 0.3rem !important;
+  padding-top: 2.5rem !important;
+  padding-bottom: 0.2rem !important;
+  background: rgba(53, 48, 48, 0.5);
+}
+
+#clientCarousel .carousel-caption h3 {
+    color: #fff !important;
+    text-align: center;
+}
+
 .business-number {
   font-size: 4rem;
   color: #d45959;

@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/aos.css" type="text/css" />
     <link rel="stylesheet" href="main.css" type="text/css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body id="our-history">
@@ -77,42 +80,81 @@
                   </p>
                   <br>
                   <div>Some of Our Wonderful Clients so far.</div>
-                  <div class="our-client-container-div">
-                    <div class="col-md-4">
-                      <div class="client-div">
-                        <div> <img src="images/cust_sushma.png"> </div>
-                        <div class="display-none client-name"> SUSHMA AND GODAVARI COLLEGE, ITAHARI </div>
-                      </div>
-                    </div>
 
-                    <div class="col-md-4">
-                      <div class="client-div">
-                        <div> <img src="images/cust_acs.jpg"> </div>
-                        <div class="display-none client-name"> ACS NEPAL </div>
-                      </div>
-                    </div>
+                  <br><br>
 
-                    <div class="col-md-4">
-                      <div class="client-div">
-                        <div> <img src="images/cust_jr.png"> </div>
-                        <div class="display-none client-name"> JR EDUCATION GROUP KATHMANDU </div>
-                      </div>
-                    </div>
+                  <div id="clientCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#clientCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#clientCarousel" data-slide-to="1"></li>
+                      <li data-target="#clientCarousel" data-slide-to="2"></li>
+                      <li data-target="#clientCarousel" data-slide-to="3"></li>
+                      <li data-target="#clientCarousel" data-slide-to="4"></li>
+                    </ol>
 
-                    <div class="col-md-4">
-                      <div class="client-div">
-                        <div> <img src="images/cust_aims.jpg"> </div>
-                        <div class="display-none client-name"> AIMS COLLEGE </div>
-                      </div>
-                    </div>
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                          <div class="slider-item-div">
+                            <img src="images/cust_sushma.png" alt="SUSHMA AND GODAVARI COLLEGE, ITAHARI">
+                          </div>
+                          <div class="carousel-caption">
+                            <h3>SUSHMA AND GODAVARI COLLEGE, ITAHARI </h3>
+                          </div>
+                        </div>
 
-                    <div class="col-md-4">
-                      <div class="client-div">
-                        <div> <img src="images/cust_himalayan.png"> </div>
-                        <div class="display-none client-name"> HIMALAYAN DARSHAN COLLEGE  </div>
+                        <div class="item">
+                          <div class="slider-item-div">
+                            <img src="images/cust_acs.jpg" alt="ACS NEPAL">
+                          </div>
+                          <div class="carousel-caption">
+                            <h3>ACS NEPAL</h3>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="slider-item-div">
+                            <img src="images/cust_jr.png" alt="JR EDUCATION GROUP KATHMANDU">
+                          </div>
+                          <div class="carousel-caption">
+                            <h3>JR EDUCATION GROUP KATHMANDU</h3>
+                          </div>
+                        </div>
+
+                        <div class="item">
+                          <div class="slider-item-div">
+                            <img src="images/cust_aims.jpg" alt="AIMS COLLEGE">
+                          </div>
+                          <div class="carousel-caption">
+                            <h3>AIMS COLLEGE</h3>
+                          </div>
+                        </div>
+
+
+                      <div class="item">
+                        <div class="slider-item-div">
+                          <img src="images/cust_himalayan.png" alt="HIMALAYAN DARSHAN COLLEGE">
+                        </div>
+                        <div class="carousel-caption">
+                          <h3>HIMALAYAN DARSHAN COLLEGE</h3>
+                        </div>
                       </div>
-                    </div>
-                    </div>
+                  </div>
+
+
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#clientCarousel" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#clientCarousel" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
                   <div class="still-counting"> Still Counting... </div>
                 </div>
             </div>
@@ -168,8 +210,7 @@
         </footer>
 
     <!-- Javascript at bottom for fast loading -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
     <script src="js/aos.js"></script>
     <script src="js/functions.js"></script>
 </body>
